@@ -1,0 +1,529 @@
+PROJECT: MEDRADAR — COMPLETE GITHUB-READY HEALTHCARE PLATFORM
+
+Build a complete, professional, fully functional website called MEDRADAR.
+
+IMPORTANT: This project MUST be generated as a complete source-code repository that can be downloaded, uploaded to GitHub, edited, run locally, and deployed using GitHub Pages.
+
+DO NOT create only a visual preview.
+DO NOT create a proprietary project that only works inside the AI website builder.
+DO NOT require paid services or subscriptions.
+
+The final output must contain all source code, configuration files, dependencies, assets, documentation, and deployment instructions.
+
+==================================================
+
+1. PROJECT PURPOSE
+    ==================================================
+
+MEDRADAR is an intelligent regional healthcare coordination platform designed for Kazakhstan.
+
+Project mission:
+
+“Медицина должна быть доступна каждому. Независимо от расстояния.”
+
+MEDRADAR connects:
+
+* 80 remote villages.
+* 20 geographical medical clusters.
+* 20–25 central FAPs.
+* Mobile medical teams.
+* District hospitals.
+* Regional hospitals.
+* Specialized diagnostic centers.
+* Doctors and patients.
+
+The platform helps identify potential health risks earlier, coordinate medical referrals, improve access to diagnostics, and track the complete patient journey.
+
+==================================================
+2. ORIGINAL HACKATHON CONDITIONS
+
+Use these exact baseline figures throughout the website:
+
+* Regional population: 500,000 people.
+* 60% of residents live in 80 rural villages.
+* Average distance to diagnostic facilities: 90 km.
+* Only 2 MRI machines.
+* Only 3 CT scanners.
+* Average diagnostic waiting time: 25 days.
+* Laboratory results take approximately 5 days.
+* 40% of cancer cases are detected at stages III–IV.
+* Only 30% of residents regularly undergo preventive examinations.
+* One basic examination costs approximately 25,000 KZT.
+
+Clearly distinguish original problem data, project targets, and simulated statistics.
+
+==================================================
+3. SIX MAIN MEDRADAR MODULES
+
+Implement all six modules as interconnected parts of one platform.
+
+1. RAPID LAB
+    Portable diagnostic equipment at 20–25 central FAPs.
+
+Features:
+
+* Portable laboratory analyzers.
+* Selected rapid blood tests.
+* Portable ECG.
+* Smart stethoscopes.
+* Digital dermatoscopes.
+* Portable ultrasound.
+
+Target: approximately 15 minutes for selected rapid tests, not all laboratory procedures.
+
+2. AI HEALTH RADAR
+    AI-assisted risk assessment.
+
+Analyze demonstration inputs:
+
+* Age.
+* Symptoms.
+* Family history.
+* Medical history.
+* Previous examinations.
+* Available test results.
+
+Three categories:
+
+* GREEN — routine monitoring.
+* YELLOW — additional medical review.
+* RED — priority clinical assessment.
+
+Use transparent rule-based demonstration logic. AI must never diagnose patients or replace doctors.
+
+3. MEDMOBILE
+    Mobile medical teams serving 80 villages divided into approximately 20 clusters.
+
+Features:
+
+* Interactive village map.
+* Weekly visit calendar.
+* Mobile team schedules.
+* Portable diagnostic equipment.
+* Village visit prioritization.
+
+4. HEALTH PASSPORT
+    Digital patient profile.
+
+Features:
+
+* Examination history.
+* Laboratory results.
+* Doctor recommendations.
+* Medical referrals.
+* Upcoming appointments.
+* Preventive reminders.
+* QR code demonstration.
+
+5. SMART REFERRALS
+    Medical referral and appointment coordination.
+
+Connect the demonstration workflow between:
+
+* Local FAP.
+* District hospital.
+* Regional hospital.
+* Specialized medical center.
+
+Features:
+
+* Referral priority.
+* Available appointment simulation.
+* MRI and CT scheduling demonstration.
+* Appointment status.
+* Patient notifications.
+
+6. PREVENTIVE CARE
+    Preventive healthcare and reminders.
+
+Features:
+
+* Upcoming examination reminders.
+* Follow-up notifications.
+* Missed appointment alerts.
+* Preventive calendar.
+* Mobile team visit reminders.
+* Doctor-created reminders.
+
+==================================================
+4. PATIENT JOURNEY — CENTRAL INNOVATION
+
+Create a complete patient tracking system.
+
+Patient workflow:
+
+1. Initial examination at a FAP.
+2. RAPID LAB testing.
+3. AI HEALTH RADAR information assessment.
+4. Doctor review.
+5. SMART REFERRALS.
+6. Diagnostic appointment.
+7. Examination completed.
+8. Results received.
+9. Doctor consultation.
+10. HEALTH PASSPORT updated.
+11. PREVENTIVE CARE reminders.
+
+Create an interactive timeline with status updates.
+
+Implement CLOSED-LOOP CARE:
+
+The system tracks whether the patient:
+
+* Received a referral.
+* Booked an appointment.
+* Attended the examination.
+* Received the results.
+* Completed the doctor consultation.
+
+If an appointment is missed or results are pending, create a demonstration notification for authorized healthcare staff.
+
+Core message:
+
+“A referral is not the end of the journey. MEDRADAR helps patients complete their journey to care.”
+
+==================================================
+5. DESIGN SYSTEM
+
+Use the exact brand colors:
+
+* #F5F5F2 — Off-white.
+* #202725 — Charcoal.
+* #B7D967 — Lime green.
+* #A5B3AA — Muted sage grey.
+
+Color distribution:
+
+* 60% off-white.
+* 25% charcoal.
+* 10% lime.
+* 5% sage grey.
+
+Design:
+
+* Premium international MedTech startup.
+* Minimalist editorial typography.
+* Clean dashboards.
+* Elegant cards.
+* Large statistics.
+* Modern navigation.
+* Smooth animations.
+* Beautiful interactive charts.
+* Professional medical icons.
+
+Avoid generic blue hospital designs.
+
+==================================================
+6. THREE LANGUAGES
+
+Implement complete multilingual functionality:
+
+* Қазақша.
+* Русский.
+* English.
+
+Default: Russian.
+
+Create a centralized translation system.
+
+Every heading, button, form, chart label, notification, navigation element, and interactive message must change language.
+
+Use translation dictionaries:
+
+* ru.json
+* kk.json
+* en.json
+
+Do not hardcode interface text directly into components.
+
+Use persistent language preferences where possible.
+
+==================================================
+7. REQUIRED WEBSITE PAGES
+
+Create these pages:
+
+* Home.
+* Regional Map.
+* RAPID LAB.
+* AI HEALTH RADAR.
+* MEDMOBILE.
+* HEALTH PASSPORT.
+* SMART REFERRALS.
+* PREVENTIVE CARE.
+* Patient Journey.
+* Patient Dashboard.
+* Doctor Dashboard.
+* Analytics.
+* About MEDRADAR.
+
+All navigation must work.
+
+Use reusable components and consistent page layouts.
+
+==================================================
+8. FREE TECHNOLOGY STACK
+
+Use only free and open-source technologies.
+
+Frontend:
+
+* React.
+* TypeScript.
+* Vite.
+* Tailwind CSS.
+* Lucide React.
+* Recharts.
+* React Router or HashRouter.
+
+Maps:
+
+* Leaflet.
+* OpenStreetMap.
+
+Data:
+
+* Local JSON files.
+* Browser localStorage for demonstration persistence.
+
+AI:
+
+* Local JavaScript rule-based simulation.
+* No paid AI API.
+* No external AI subscription.
+
+Charts:
+
+* Recharts.
+
+Do not use:
+
+* Paid APIs.
+* Paid databases.
+* Paid hosting.
+* Paid map APIs.
+* Paid templates.
+* Proprietary dependencies requiring subscriptions.
+
+==================================================
+9. GITHUB REPOSITORY STRUCTURE
+
+Generate a clean, organized project structure similar to:
+
+medradar/
+│
+├── public/
+│   ├── logo.svg
+│   ├── favicon.svg
+│   └── images/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Sidebar.tsx
+│   │   ├── LanguageSwitcher.tsx
+│   │   ├── StatCard.tsx
+│   │   ├── NotificationCenter.tsx
+│   │   └── PatientTimeline.tsx
+│   │
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── Map.tsx
+│   │   ├── RapidLab.tsx
+│   │   ├── AIHealthRadar.tsx
+│   │   ├── MedMobile.tsx
+│   │   ├── HealthPassport.tsx
+│   │   ├── SmartReferrals.tsx
+│   │   ├── PreventiveCare.tsx
+│   │   ├── PatientJourney.tsx
+│   │   ├── PatientDashboard.tsx
+│   │   ├── DoctorDashboard.tsx
+│   │   ├── Analytics.tsx
+│   │   └── About.tsx
+│   │
+│   ├── data/
+│   │   ├── villages.json
+│   │   ├── clusters.json
+│   │   ├── hospitals.json
+│   │   ├── demoPatients.json
+│   │   └── appointments.json
+│   │
+│   ├── i18n/
+│   │   ├── ru.json
+│   │   ├── kk.json
+│   │   └── en.json
+│   │
+│   ├── hooks/
+│   ├── utils/
+│   ├── types/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+├── README.md
+├── .gitignore
+└── LICENSE
+
+You may improve the structure if needed, but keep the project organized and understandable.
+
+==================================================
+10. GITHUB PAGES COMPATIBILITY
+
+THIS REQUIREMENT IS EXTREMELY IMPORTANT.
+
+Configure the project for GitHub Pages deployment.
+
+Requirements:
+
+1. Configure Vite base path correctly for the GitHub repository.
+2. Use HashRouter or another reliable GitHub Pages-compatible routing method.
+3. Ensure all pages work after refreshing the browser.
+4. Ensure all CSS, JS, images, icons, and assets load correctly.
+5. Avoid absolute asset paths that break under repository subpaths.
+6. Configure a GitHub Actions workflow for automatic deployment.
+7. Use GitHub Actions with official deployment permissions.
+8. Do not require paid secrets or API keys.
+9. Do not require a custom domain.
+10. Make sure the site works from a standard GitHub Pages URL.
+
+Create:
+
+.github/workflows/deploy.yml
+
+The workflow must:
+
+* Install dependencies.
+* Build the production project.
+* Upload the generated dist folder.
+* Deploy to GitHub Pages.
+
+Use the standard GitHub Pages deployment actions and permissions.
+
+==================================================
+11. LOCAL DEVELOPMENT
+
+The project must run using:
+
+npm install
+
+npm run dev
+
+Create these package scripts:
+
+* dev.
+* build.
+* preview.
+* lint.
+
+The production build must complete without TypeScript errors or missing dependencies.
+
+==================================================
+12. FREE DEMONSTRATION DATA
+
+Create realistic fictional demonstration data:
+
+* 80 village records.
+* 20 cluster records.
+* 25–30 participating diagnostic point records.
+* 2 MRI demonstration facilities.
+* 3 CT demonstration facilities.
+* Fictional patient profiles.
+* Sample referrals.
+* Sample examination results.
+* Mobile team schedules.
+* Preventive reminders.
+
+Clearly mark all fictional locations, patients, facilities, and statistics as demonstration data.
+
+Do not invent actual operating hospitals or claim real medical integrations.
+
+==================================================
+13. FUNCTIONAL REQUIREMENTS
+
+Every visible button must have an actual action.
+
+Implement:
+
+* Functional language switching.
+* Interactive map.
+* Village selection.
+* Cluster filters.
+* AI triage simulation.
+* Express diagnostic simulation.
+* Appointment booking simulation.
+* Reminder management.
+* Patient status updates.
+* Patient journey timeline.
+* Doctor dashboard filters.
+* Analytics charts.
+* Search.
+* Forms and validation.
+* Responsive navigation.
+
+Persist suitable demo interactions using localStorage.
+
+The website must work without a backend.
+
+Clearly explain that localStorage is only for demonstration and is not suitable for storing real medical information.
+
+==================================================
+14. README.md
+
+Create a complete README in English and Russian.
+
+Include:
+
+* Project description.
+* Main features.
+* Technology stack.
+* Repository structure.
+* How to install.
+* How to run locally.
+* How to build.
+* How to upload to GitHub.
+* How to enable GitHub Pages.
+* How automatic deployment works.
+* How to change the website language.
+* Important medical demo-data disclaimer.
+
+Provide simple instructions suitable for beginners.
+
+==================================================
+15. FINAL QUALITY CHECK
+
+Before finishing:
+
+* Check that all source files exist.
+* Check that imports resolve.
+* Check TypeScript compilation.
+* Check npm run build.
+* Check GitHub Pages base path.
+* Check navigation.
+* Check translations.
+* Check all visible buttons.
+* Check responsive layouts.
+* Check that no paid API is required.
+* Check that no API keys or secrets are embedded.
+* Check that no real patient data is included.
+
+Do not leave TODO placeholders for essential functionality.
+
+Do not provide only snippets.
+
+Generate the complete downloadable GitHub-ready source-code project.
+
+FINAL GOAL:
+
+A complete, beautiful, functional MEDRADAR healthcare platform that can be uploaded directly to GitHub, launched locally for free, and published using GitHub Pages.
+
+The project must be suitable for a professional MedTech hackathon demonstration.
