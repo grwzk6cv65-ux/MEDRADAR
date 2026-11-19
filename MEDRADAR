@@ -1,0 +1,82 @@
+CRITICAL REQUIREMENT — 100% FREE IMPLEMENTATION
+
+Build the entire MEDRADAR website using FREE technologies and services only.
+
+The project must not require any payment to develop, run, demonstrate, or deploy its basic version.
+
+STRICTLY PROHIBITED:
+
+* Paid APIs.
+* Paid AI models.
+* Paid map services.
+* Paid templates.
+* Paid plugins.
+* Paid hosting.
+* Paid databases.
+* Subscription-based functionality.
+* Features that require entering credit card information.
+
+FREE TECHNOLOGY STACK
+
+Use:
+
+1. React + Vite — website development.
+2. TypeScript — programming.
+3. Tailwind CSS — styling.
+4. Lucide React — icons.
+5. Recharts — charts and analytics.
+6. Leaflet + OpenStreetMap — interactive maps.
+7. Local JSON data — demonstration patients, villages, hospitals and appointments.
+8. Browser localStorage — save demo settings, appointments, reminders and patient statuses.
+9. JavaScript-based AI simulation — demonstrate AI HEALTH RADAR without paid AI APIs.
+10. Local translation dictionaries — complete Kazakh, Russian and English support.
+
+FREE FUNCTIONALITY
+
+All six MEDRADAR modules must work in demonstration mode without paid services.
+
+Implement:
+
+* Interactive map with 80 fictional demonstration villages.
+* 20 medical cluster simulations.
+* RAPID LAB demonstration.
+* AI HEALTH RADAR risk assessment simulation.
+* MEDMOBILE weekly schedule.
+* HEALTH PASSPORT demo profiles.
+* SMART REFERRALS appointment simulation.
+* PREVENTIVE CARE reminders.
+* Complete PATIENT JOURNEY tracking.
+* CLOSED-LOOP CARE monitoring.
+* Doctor dashboard.
+* Patient dashboard.
+* Interactive analytics.
+* Three-language switching.
+
+Do not use external paid AI APIs. Implement transparent rule-based demonstration logic for AI features and label it as a simulation.
+
+FREE DEPLOYMENT
+
+Prepare the website for free deployment using:
+
+* GitHub Pages.
+* Cloudflare Pages.
+* Other suitable free static hosting.
+
+Make sure the project can run locally with simple commands:
+
+npm install
+npm run dev
+
+Provide all source files and a README explaining how to launch and deploy the project for free.
+
+Avoid unnecessary dependencies.
+
+IMPORTANT
+
+The website must be fully usable as a hackathon demonstration without purchasing anything.
+
+Do not leave unfinished buttons, inaccessible sections or paid-service dependencies.
+
+Use simulated medical data only. Never store real patient medical information in the public demo version.
+
+The final result must be a complete, attractive, interactive MEDRADAR prototype with zero mandatory paid services.
